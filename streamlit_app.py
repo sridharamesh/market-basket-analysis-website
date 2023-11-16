@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from sklearn.metrics.pairwise import cosine_similarity
+
 
 df = pd.read_pickle('data_with_probability1.pkl')
 
